@@ -1,0 +1,48 @@
+#calenderContainer {
+  width: 400px;
+  background-color: bisque;
+  padding: 5px;
+}
+#yearToDisplay {
+  font-weight: bold;
+  padding-top: 5px;
+}
+.topNav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  border-bottom: #cccccc 1px solid;
+  -webkit-box-shadow: 0 1px 0 0 #f7f7f7;
+  box-shadow: 0 1px 0 0 #f7f7f7;
+  margin-bottom: 5px;
+}
+.topNav .nav {
+  display: inline-block;
+  cursor: pointer;
+  padding: 5px;
+}
+.calendarTop,
+#calendarBody {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+.dayBox,
+.dateBox {
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  text-align: center;
+  max-width: 14.28%;
+  min-width: 14.28%;
+}
+.currentDate {
+  background-color: black;
+  color: #ff0000;
+  font-weight: bold;
+}
